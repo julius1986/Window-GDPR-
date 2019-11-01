@@ -1,0 +1,74 @@
+
+.wrapper {
+  display: flex;
+  top:0;
+  left:0;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  overflow: hide;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-window {
+  border: 1px solid black;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.message-container {
+  border-bottom: 1px solid black;
+  padding: 0;
+  margin: 0;
+  flex: 7;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.message-title{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.message {
+  overflow: auto;
+}
+
+.buttons-group {
+  flex: 2;
+  overflow: hidden;
+  display: flex;
+}
+
+.btn {
+  border-radius: 10px;
+  flex: 1;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-accept{
+  background-color: limegreen;
+}
+.btn:hover{
+  border: 1px solid black;
+  text-decoration: underline;
+}
+.btn-cancel{
+  background-color: orangered;
+}
