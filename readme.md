@@ -17,8 +17,8 @@
 > I created some examples:
 
 - example1 - very simple, all in one file
-- example2 - separate files but only with style
-- example3 - separate files with classes css.
+- example2 - separate files + styles in style tags
+- example3 - separate files + classes.
 - example4 - all in one file, with another color scheme.
 
 **Have ready Webpack config**
